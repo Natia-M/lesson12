@@ -8,7 +8,7 @@ img {
 }
 .parent {
   display: grid;
-  grid-template-columns: 1.5fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
   grid-template-areas:
     "aside header header header header header "
     "aside section section section section section "
@@ -33,6 +33,7 @@ header {
   padding-right: 40px;
   justify-items: center;
   align-items: center;
+  height: 60px;
 }
 .header-img {
   max-width: 40px;
@@ -64,4 +65,73 @@ header {
   border-radius: 10px;
   color: white;
   font-size: x-small;
+}
+aside {
+  max-width: 100%;
+  background-color: #222222;
+  color: white;
+  position: fixed;
+}
+.logos {
+  max-width: 30px;
+}
+.first-logo {
+  max-width: 100px;
+}
+.symb {
+  max-height: 30px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  justify-items: center;
+  gap: 15px;
+  margin-top: 10px;
+}
+.nav-logos {
+  max-width: 20px;
+}
+.nav-div {
+  max-height: 30px;
+  display: flex;
+  align-items: center;
+  margin: 10px;
+  margin-top: 20px;
+  margin-left: 20px;
+  padding: 10px;
+  gap: 20px;
+  border-radius: 15px;
+}
+.navb {
+  margin-top: 30px;
+  margin-bottom: 60px;
+}
+.aside-nav {
+  color: white;
+  text-decoration: none;
+}
+li::marker {
+  display: none;
+}
+::marker {
+  color: #222222;
+}
+.aside-pic {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 0px 10px;
+  margin: 15px;
+  margin-top: 15px;
+}
+.list-pic {
+  max-width: 30px;
+}
+h5 {
+  font-size: 12px;
+  margin-top: 10px;
+  margin-bottom: 30px;
+  margin-left: 30px;
+}
+.aside-div1 {
+  margin-bottom: 80px;
 }
