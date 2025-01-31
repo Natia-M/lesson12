@@ -132,6 +132,45 @@ h5 {
   margin-bottom: 30px;
   margin-left: 30px;
 }
+
 .aside-div1 {
   margin-bottom: 80px;
+}
+.item-2 {
+  max-width: 950px;
+  width: 100%;
+  margin-top: 20px;
+}
+.sec-header {
+  max-width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  justify-items: center;
+}
+.sec-ul {
+  list-style: none;
+  display: flex;
+  font-size: 13px;
+  gap: 30px;
+}
+.sec-ul li {
+  color: #222222;
+  padding: 10px;
+}
+.sec-butt {
+  display: flex;
+  align-items: center;
+  justify-items: center;
+  gap: 5px;
+  padding: 8px;
+  border-color: #d8d8d8;
+  background-color: white;
+  border-radius: 8px;
+  border-width: 0.5px;
+  font-size: 13px;
+}
+.first-li {
+  background-color: #d8d8d8;
+  border-radius: 10px;
 }
