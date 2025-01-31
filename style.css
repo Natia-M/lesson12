@@ -137,16 +137,19 @@ h5 {
   margin-bottom: 80px;
 }
 .item-2 {
-  max-width: 950px;
+  max-width: 900px;
   width: 100%;
-  margin-top: 20px;
+  margin: 30px auto;
 }
 .sec-header {
-  max-width: 100%;
+  max-width: 900px;
+  width: 100%;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
   justify-items: center;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 .sec-ul {
   list-style: none;
@@ -173,4 +176,25 @@ h5 {
 .first-li {
   background-color: #d8d8d8;
   border-radius: 10px;
+}
+.section-container {
+  max-width: 900px;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: auto;
+  padding-top: 30px;
+  font-size: 13px;
+}
+.container-box {
+  max-width: 215px;
+  width: 100%;
+  justify-items: center;
+}
+.sec-1 {
+  display: flex;
+  text-decoration-line: none;
+  color: #222222;
+  background-color: #f2f2f2;
 }
