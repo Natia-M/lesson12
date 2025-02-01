@@ -12,9 +12,8 @@ img {
   grid-template-areas:
     "aside header header header header header "
     "aside section section section section section "
-    "aside section section section section section "
-    " aside section section section section  section"
-    " aside section section section section  section";
+    ". design design design design design"
+    " . footer footer footer footer footer";
 }
 .item-1 {
   grid-area: header;
@@ -24,6 +23,12 @@ img {
 }
 .item-3 {
   grid-area: aside;
+}
+.item-4 {
+  grid-area: design;
+}
+.item-5 {
+  grid-area: footer;
 }
 
 header {
@@ -214,4 +219,52 @@ h5 {
   border: none;
   border-radius: 6px;
   padding: 10px 70px;
+}
+a {
+  text-decoration: none;
+}
+.item-4 {
+  max-width: 900px;
+  margin: auto;
+  padding-top: 60px;
+}
+.designers-parent {
+  width: 100%;
+  display: flex;
+  margin: auto;
+  gap: 22px;
+}
+.designers-header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 40px;
+}
+.designers {
+  max-width: 100px;
+  width: 100%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  row-gap: 5px;
+  padding: 5px;
+}
+.desig-butt {
+  color: #c0bebe;
+  font-size: 9px;
+  background-color: white;
+  border: none;
+}
+.foll-butt {
+  margin-top: 10px;
+  padding: 10px;
+  border: none;
+  border-radius: 10px;
+  background-color: #f2f2f2;
+  margin-bottom: 0px;
+}
+.cities {
+  font-size: 11px;
+  color: #222222;
+  opacity: 60%;
 }
