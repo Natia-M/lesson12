@@ -13,7 +13,9 @@
       "aside design design design design design"
       "aside footer footer footer footer footer";
   }
-
+  .container {
+    margin-right: 30px;
+  }
   .item-3 {
     height: 100%;
     width: 100px;
@@ -93,10 +95,6 @@
   }
   .logos {
     display: none;
-  }
-
-  .designers {
-    max-width: 59px;
   }
   h6 {
     font-size: 10px;
