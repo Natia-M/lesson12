@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&family=Quicksand:wght@300..700&family=Sen:wght@400..800&display=swap");
+
 * {
   box-sizing: border-box;
   padding: 0;
@@ -51,6 +53,10 @@ header {
   display: flex;
   gap: 20px;
   align-items: center;
+  font-family: "Quicksand", serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
 }
 .symbol {
   gap: 90px;
@@ -75,6 +81,10 @@ header {
   border-radius: 10px;
   color: white;
   font-size: x-small;
+  font-family: "Quicksand", serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
 }
 /* aside styles */
 aside {
@@ -111,6 +121,10 @@ aside {
   padding: 10px;
   gap: 20px;
   border-radius: 15px;
+  font-family: "Quicksand", serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
 }
 .navb {
   margin-top: 30px;
@@ -131,6 +145,12 @@ aside {
   margin: 15px;
   margin-top: 15px;
 }
+.aside-p {
+  font-family: "Quicksand", serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
 .aside-div1 {
   margin-bottom: 80px;
 }
@@ -142,6 +162,10 @@ h5 {
   margin-top: 10px;
   margin-bottom: 30px;
   margin-left: 30px;
+  font-family: "Quicksand", serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
 }
 /* table section styles */
 
@@ -155,6 +179,10 @@ table {
   border-collapse: collapse;
   width: 100%;
   margin-top: 60px;
+  font-family: "Quicksand", serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
 }
 
 td {
@@ -192,6 +220,10 @@ th {
   margin: auto;
   padding-top: 100px;
   font-size: 14px;
+  font-family: "Quicksand", serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
 }
 .foo-list {
   display: flex;
