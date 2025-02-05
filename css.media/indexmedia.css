@@ -1,0 +1,222 @@
+@media (max-width: 1024px) and (min-width: 768px) {
+  * {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+  }
+  .parent {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-areas:
+      "aside header header header header header "
+      "aside section section section section section "
+      "aside design design design design design"
+      "aside footer footer footer footer footer";
+  }
+  .container {
+    margin-right: 30px;
+  }
+  .item-3 {
+    height: 100%;
+    width: 100px;
+  }
+  img {
+    width: 100%;
+  }
+  .parent {
+    max-width: 1024px;
+    width: 100%;
+  }
+
+  header,
+  .item-2,
+  .item-4,
+  .item-5 {
+    max-width: 1024px;
+    padding: unset;
+    margin: unset;
+  }
+  .sec-ul {
+    gap: unset;
+    font-size: 10px;
+  }
+  .head-button {
+    padding: 10px 15px;
+    font-size: 10px;
+  }
+  .header-img {
+    max-width: 30px;
+  }
+  .mini-text {
+    font-size: 10px;
+  }
+  .sec-butt {
+    padding: 5px;
+    font-size: 10px;
+  }
+  .navb {
+    margin-top: 0px;
+    margin-bottom: 50px;
+  }
+  .section-container {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+  }
+  .container-box {
+    max-width: 200px;
+    width: 100%;
+    margin: unset;
+    padding: unset;
+  }
+
+  .aside-nav,
+  .aside-p {
+    display: none;
+  }
+  .aside-pic {
+    max-width: 60px;
+    padding: 0;
+    margin-left: 30px;
+  }
+  .list-pic {
+    margin-top: 5px;
+    max-width: 30px;
+  }
+  .nav-logos {
+    max-width: 25px;
+    width: 100%;
+    margin-top: 10px;
+  }
+  .nav-div {
+    margin-top: 0px;
+  }
+  h5 {
+    font-size: 8px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+  }
+  .symb {
+    max-width: 60px;
+    margin: auto;
+    padding-top: 20px;
+  }
+  .logos {
+    display: none;
+  }
+  h6 {
+    font-size: 10px;
+  }
+  .foll-butt {
+    padding: 4px;
+    font-size: 10px;
+  }
+  .footer-listing {
+    font-size: 8px;
+  }
+  .foo-list {
+    gap: 10px;
+  }
+  .academy,
+  .smart {
+    font-size: 8px;
+  }
+  .icons-2 {
+    max-width: 12px;
+    gap: 5px;
+  }
+  .sec-header {
+    margin-top: 40px;
+    margin-bottom: 10px;
+  }
+  .designers-header {
+    margin-top: 40px;
+  }
+  .button-3 {
+    max-width: 10px;
+  }
+}
+@media (width <768px) {
+  * {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+  }
+  .parent {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-areas:
+      "aside header header header header"
+      "aside section section section section"
+      "aside design design design design"
+      "aside footer footer footer footer";
+  }
+  .item-1 {
+    grid-area: header;
+  }
+  .item-2 {
+    grid-area: section;
+  }
+  .item-3 {
+    grid-area: aside;
+  }
+  .item-4 {
+    grid-area: design;
+  }
+  .item-5 {
+    grid-area: footer;
+  }
+  .item-1,
+  .item-2,
+  .item-4,
+  .item-5 {
+    padding-left: 20px;
+  }
+  /* aside */
+  .logos,
+  .aside-nav,
+  .aside-p {
+    display: none;
+  }
+  h5 {
+    font-size: 8px;
+    margin-left: 8px;
+    margin-top: 30px;
+    margin-bottom: 15px;
+  }
+  .nav-div,
+  .navb {
+    margin-top: unset;
+    margin-bottom: unset;
+  }
+  .first-logo {
+    max-width: 60px;
+    width: 100%;
+  }
+  .more-b {
+    font-size: 5px;
+  }
+  /* header */
+  .head-button,
+  .mini-text,
+  .header-1 {
+    display: none;
+  }
+  /* section-1 */
+  .section-container {
+    padding-right: 10px;
+  }
+  .sec-header {
+    display: flex;
+    justify-content: end;
+    flex-wrap: wrap;
+  }
+  .sec-ul {
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: space-around;
+  }
+  .container-box {
+    max-width: 100px;
+  }
+}

@@ -141,6 +141,7 @@ aside {
   margin-top: 15px;
 }
 .aside-div1 {
+  width: 100%;
   margin-bottom: 80px;
 }
 h5 {
@@ -169,6 +170,7 @@ h5 {
 
 .list-pic {
   max-width: 30px;
+  width: 100%;
 }
 .item-2 {
   max-width: 900px;
