@@ -144,12 +144,12 @@
   }
   .parent {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 7fr;
     grid-template-areas:
-      "aside header header header header"
-      "aside section section section section"
-      "aside design design design design"
-      "aside footer footer footer footer";
+      "aside header "
+      "aside section "
+      "aside design"
+      "aside footer";
   }
   .item-1 {
     grid-area: header;
@@ -170,9 +170,12 @@
   .item-2,
   .item-4,
   .item-5 {
-    padding-left: 20px;
+    padding-left: 15px;
   }
   /* aside */
+  .aside-div1 {
+    width: 100%;
+  }
   .logos,
   .aside-nav,
   .aside-p {
@@ -180,7 +183,7 @@
   }
   h5 {
     font-size: 8px;
-    margin-left: 8px;
+    margin-left: 3px;
     margin-top: 30px;
     margin-bottom: 15px;
   }
@@ -190,11 +193,21 @@
     margin-bottom: unset;
   }
   .first-logo {
-    max-width: 60px;
     width: 100%;
   }
   .more-b {
     font-size: 5px;
+  }
+  .aside-pic {
+    padding: 0px;
+    margin-left: 10px;
+  }
+  .nav-div {
+    margin-left: unset;
+    padding-left: 15px;
+  }
+  .list-pic {
+    width: 100%;
   }
   /* header */
   .head-button,
@@ -202,14 +215,23 @@
   .header-1 {
     display: none;
   }
+  header {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
   /* section-1 */
   .section-container {
     padding-right: 10px;
+    gap: 30px;
+    display: flex;
+    justify-content: center;
   }
   .sec-header {
     display: flex;
     justify-content: end;
     flex-wrap: wrap;
+    gap: 30px;
+    padding-right: 10px;
   }
   .sec-ul {
     flex-wrap: wrap;
@@ -218,5 +240,41 @@
   }
   .container-box {
     max-width: 100px;
+  }
+  /* designers section */
+  .item-4 {
+    width: 100%;
+  }
+  .designers {
+    width: 100%;
+    padding: 10px;
+  }
+  .designers-header {
+    width: 100%;
+    padding-right: 30px;
+  }
+  .designers-parent {
+    max-width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-items: center;
+    justify-content: center;
+    gap: 30px;
+  }
+  /* footer */
+  footer {
+    width: 100%;
+  }
+  .footer-listing {
+    width: 100%;
+    gap: 30px;
+    display: flex;
+    font-size: 8px;
+  }
+  .foo-list {
+    gap: unset;
+  }
+  .last-list {
+    display: none;
   }
 }
