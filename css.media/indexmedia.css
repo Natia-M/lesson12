@@ -171,6 +171,7 @@
   .item-4,
   .item-5 {
     padding-left: 15px;
+    padding-right: 10px;
   }
   /* aside */
   .aside-div1 {
@@ -193,6 +194,7 @@
     margin-bottom: unset;
   }
   .first-logo {
+    max-width: 50px;
     width: 100%;
   }
   .more-b {
@@ -212,13 +214,23 @@
   /* header */
   .head-button,
   .mini-text,
-  .header-1 {
+  .header-2 {
     display: none;
   }
   header {
     padding-left: 0px;
     padding-right: 0px;
   }
+  .symbol {
+    gap: 15px;
+  }
+  .header-text {
+    font-size: 10px;
+  }
+  .header-1 {
+    max-width: 15px;
+  }
+
   /* section-1 */
   .section-container {
     padding-right: 10px;
@@ -228,7 +240,7 @@
   }
   .sec-header {
     display: flex;
-    justify-content: end;
+    justify-content: start;
     flex-wrap: wrap;
     gap: 30px;
     padding-right: 10px;
@@ -241,6 +253,7 @@
   .container-box {
     max-width: 100px;
   }
+
   /* designers section */
   .item-4 {
     width: 100%;
@@ -251,17 +264,19 @@
   }
   .designers-header {
     width: 100%;
-    padding-right: 30px;
+    padding: 10px;
   }
   .designers-parent {
     max-width: 100%;
     display: flex;
     flex-wrap: wrap;
-    justify-items: center;
-    justify-content: center;
-    gap: 30px;
+    justify-content: space-around;
+    gap: 25px;
   }
   /* footer */
+  .item-5 {
+    padding-left: 20px;
+  }
   footer {
     width: 100%;
   }
@@ -276,5 +291,13 @@
   }
   .last-list {
     display: none;
+  }
+  .icons {
+    font-size: 10px;
+  }
+  .icons-2 {
+    max-width: 10px;
+    height: 10px;
+    gap: 5px;
   }
 }
