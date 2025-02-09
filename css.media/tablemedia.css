@@ -167,9 +167,13 @@
     margin-left: unset;
     padding-left: 15px;
     margin-top: 15px;
+    margin-right: 4px;
   }
   .list-pic {
     width: 100%;
+  }
+  .symb {
+    justify-content: flex-start;
   }
   /* header */
   .head-button,
@@ -198,7 +202,20 @@
   .dot-2 {
     display: none;
   }
-
+  /* table media */
+  .box-item2 {
+    overflow-x: auto;
+  }
+  table {
+    min-width: 600px;
+    overflow-x: auto;
+  }
+  th {
+    font-size: 13px;
+  }
+  td {
+    font-size: 10px;
+  }
   /* designers section */
   .item-4 {
     width: 100%;

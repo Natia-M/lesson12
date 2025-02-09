@@ -215,9 +215,13 @@
     margin-left: unset;
     padding-left: 15px;
     margin-top: 15px;
+    margin-right: 4px;
   }
   .list-pic {
     width: 100%;
+  }
+  .symb {
+    justify-content: flex-start;
   }
   /* header */
   .head-button,
