@@ -24,6 +24,10 @@
     padding: unset;
     margin: unset;
   }
+  .dot-1,
+  .dot-2 {
+    display: none;
+  }
   .head-button {
     padding: 10px 15px;
     font-size: 10px;
@@ -85,6 +89,160 @@
   }
   .icons-2 {
     max-width: 12px;
+    gap: 5px;
+  }
+}
+@media (width <768px) {
+  * {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+  }
+  .parent {
+    display: grid;
+    grid-template-columns: 1fr 7fr;
+    grid-template-areas:
+      "aside header "
+      "aside section "
+      "aside design"
+      "aside footer";
+  }
+  .item-1 {
+    grid-area: header;
+  }
+  .item-2 {
+    grid-area: section;
+  }
+  .item-3 {
+    grid-area: aside;
+  }
+  .item-4 {
+    grid-area: design;
+  }
+  .item-5 {
+    grid-area: footer;
+  }
+  .item-1,
+  .item-2,
+  .item-4,
+  .item-5 {
+    padding-left: 15px;
+    padding-right: 10px;
+  }
+  /* aside */
+  .item-3 {
+    height: 100%;
+  }
+  .aside-div1 {
+    width: 100%;
+  }
+  .logos,
+  .aside-nav,
+  .aside-p {
+    display: none;
+  }
+  h5 {
+    font-size: 7px;
+    margin-left: 3px;
+    margin-top: 30px;
+    margin-bottom: 15px;
+  }
+  .nav-div,
+  .navb {
+    margin-top: unset;
+    margin-bottom: unset;
+  }
+  .first-logo {
+    max-width: 50px;
+    width: 100%;
+  }
+  .more-b {
+    font-size: 5px;
+  }
+  .aside-pic {
+    padding: 0px;
+    margin-left: 10px;
+  }
+  .nav-div {
+    margin-left: unset;
+    padding-left: 15px;
+    margin-top: 15px;
+  }
+  .list-pic {
+    width: 100%;
+  }
+  /* header */
+  .head-button,
+  .mini-text,
+  .header-2 {
+    display: none;
+  }
+  header {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  .symbol {
+    gap: 15px;
+    padding-left: 5px;
+  }
+  .header-text {
+    font-size: 10px;
+  }
+  .header-1 {
+    max-width: 15px;
+  }
+  .header-img {
+    max-width: 30px;
+  }
+  .dot-1,
+  .dot-2 {
+    display: none;
+  }
+
+  /* designers section */
+  .item-4 {
+    width: 100%;
+  }
+  .designers {
+    width: 100%;
+    padding: 10px;
+  }
+  .designers-header {
+    width: 100%;
+    padding: 10px;
+  }
+  .designers-parent {
+    max-width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 40px;
+  }
+  /* footer */
+  .item-5 {
+    padding-left: 20px;
+  }
+  footer {
+    width: 100%;
+  }
+  .footer-listing {
+    width: 100%;
+    gap: 30px;
+    display: flex;
+    font-size: 8px;
+  }
+  .foo-list {
+    gap: unset;
+  }
+  .last-list {
+    display: none;
+  }
+  .icons {
+    font-size: 10px;
+  }
+  .icons-2 {
+    max-width: 10px;
+    height: 10px;
     gap: 5px;
   }
 }

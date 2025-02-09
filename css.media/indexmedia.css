@@ -13,6 +13,10 @@
       "aside design design design design design"
       "aside footer footer footer footer footer";
   }
+  .dot-1,
+  .dot-2 {
+    display: none;
+  }
   .container {
     margin-right: 30px;
   }
@@ -174,6 +178,9 @@
     padding-right: 10px;
   }
   /* aside */
+  .item-3 {
+    height: 100%;
+  }
   .aside-div1 {
     width: 100%;
   }
@@ -183,7 +190,7 @@
     display: none;
   }
   h5 {
-    font-size: 8px;
+    font-size: 7px;
     margin-left: 3px;
     margin-top: 30px;
     margin-bottom: 15px;
@@ -207,6 +214,7 @@
   .nav-div {
     margin-left: unset;
     padding-left: 15px;
+    margin-top: 15px;
   }
   .list-pic {
     width: 100%;
@@ -223,6 +231,7 @@
   }
   .symbol {
     gap: 15px;
+    padding-left: 5px;
   }
   .header-text {
     font-size: 10px;
@@ -230,8 +239,22 @@
   .header-1 {
     max-width: 15px;
   }
-
+  .header-img {
+    max-width: 30px;
+  }
+  .dot-1,
+  .dot-2 {
+    display: none;
+  }
   /* section-1 */
+  .hover-img,
+  .hover-2 {
+    width: 20px;
+    margin: 5px;
+  }
+  .hover-2 {
+    margin-top: 30px;
+  }
   .section-container {
     padding-right: 10px;
     gap: 30px;
@@ -271,7 +294,7 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    gap: 25px;
+    gap: 40px;
   }
   /* footer */
   .item-5 {
