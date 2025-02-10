@@ -236,9 +236,11 @@ th {
 .tr-7 {
   color: #ff2288;
 }
-tr:hover {
+.tr-2:hover {
+  color: #222222;
   background-color: #f2f2f2;
 }
+
 /* footer styles */
 .footer-listing {
   display: flex;
