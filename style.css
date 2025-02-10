@@ -80,6 +80,7 @@ header {
   font-optical-sizing: auto;
   font-weight: <weight>;
   font-style: normal;
+  cursor: pointer;
 }
 .dot-1 {
   width: 6px;
@@ -99,6 +100,7 @@ header {
   margin-left: 119px;
   margin-bottom: 16px;
 }
+
 /* aside styles */
 .aside-1 {
   background-color: #ff2288;
@@ -282,6 +284,7 @@ h5 {
   border: none;
   border-radius: 6px;
   padding: 10px 70px;
+  cursor: pointer;
 }
 a {
   text-decoration: none;
@@ -363,6 +366,10 @@ a {
   font-optical-sizing: auto;
   font-weight: <weight>;
   font-style: normal;
+  cursor: pointer;
+}
+.foll-butt:hover {
+  background-color: #c0bebe;
 }
 .cities {
   font-size: 11px;

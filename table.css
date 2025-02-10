@@ -85,6 +85,7 @@ header {
   font-optical-sizing: auto;
   font-weight: <weight>;
   font-style: normal;
+  cursor: pointer;
 }
 .dot-1 {
   width: 6px;
